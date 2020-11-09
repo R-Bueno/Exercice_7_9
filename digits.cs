@@ -8,7 +8,8 @@ class Digits
 {
      static void Main()
      {
-         int oneDigit = 0, twoDigits = 0, threeDigits = 0, moreThanThreeDigits = 0;
+         int oneDigit = 0, twoDigits = 0, threeDigits = 0;
+         int moreThanThreeDigits = 0;
           
           Console.Write("Insert a number: ");
           string number = Console.ReadLine();
