@@ -17,7 +17,9 @@ public class Average
         while(mark != "end")
         {  
             individualMark = Convert.ToDouble(mark);
+            
             count++;
+            
             sumOfMarks += individualMark;
             
             Console.Write("Insert a mark: ");
@@ -27,6 +29,7 @@ public class Average
         if(count != 0)
         {
             average = sumOfMarks / count;  
+            
             Console.WriteLine("The average is {0}.", average);
         }
     }
